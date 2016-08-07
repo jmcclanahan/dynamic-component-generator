@@ -1,0 +1,3 @@
+<div *ngFor="let item of items">
+  <dynamic-html-outlet [src]="item.cellTemplate" [item]="item"></dynamic-html-outlet>
+</div>
